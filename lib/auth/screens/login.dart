@@ -33,7 +33,7 @@ class _LoginState extends State<Login> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/logo-lyw.png',
+              'assets/logoCar.png',
               width: 125,
               height: 125,
             ),
@@ -49,7 +49,7 @@ class _LoginState extends State<Login> {
               },
               child: const Text(
                 "Welcome Back!",
-                style: TextStyle(fontSize: 24, color: Color(0xff424242)),
+                style: TextStyle(fontSize: 30, color: Color(0xff000000)),
               ),
             ),
             const SizedBox(height: 32),
@@ -97,7 +97,7 @@ class _LoginState extends State<Login> {
                 );
               },
               style: FilledButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 252, 150, 82),
+                backgroundColor: const Color.fromARGB(255, 74, 135, 250),
                 foregroundColor: Colors.white,
                 fixedSize: const Size(200, 50),
                 shape: RoundedRectangleBorder(
@@ -136,7 +136,7 @@ class _LoginState extends State<Login> {
           child: const Text(
             "Sign up",
             style: TextStyle(
-              color: Color.fromARGB(255, 238, 163, 113),
+              color: Color.fromARGB(255, 113, 167, 238),
               backgroundColor: Color.fromARGB(0, 138, 132, 132),
             ),
           ),

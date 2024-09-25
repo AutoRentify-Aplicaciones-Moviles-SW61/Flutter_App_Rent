@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:lead_your_way/renting/screens/rent_page.dart';
-import 'package:lead_your_way/shared/models/bicycle.dart';
+import 'package:lead_your_way/shared/models/car.dart';
 
 class BicycleCard extends StatelessWidget {
-  final Bicycle bicycle;
+  final Car car;
 
-  BicycleCard({required this.bicycle});
+  BicycleCard({required this.car});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class BicycleCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.network(
-            bicycle.imageData, // Assuming you have image URLs in your model.
+            car.imageData, // Assuming you have image URLs in your model.
             width: double.infinity,
             height: 150,
             fit: BoxFit.cover,
@@ -27,14 +27,14 @@ class BicycleCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  bicycle.bicycleName,
+                  car.carName,
                   style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
                 Text(
-                  bicycle.bicycleDescription,
+                  car.carDescription,
                   style: const TextStyle(fontSize: 14),
                 ),
                 const SizedBox(height: 10),
@@ -45,14 +45,16 @@ class BicycleCard extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Price: \$${bicycle.bicyclePrice.toStringAsFixed(2)}',
+                          'Price: \$${car.carPrice.toStringAsFixed(2)}',
                           style: const TextStyle(
                               fontSize: 16, fontWeight: FontWeight.bold),
                         ),
-                        Text('Size: ${bicycle.bicycleSize}',
+                        Text('Size: ${car.passengers}',
                             style: const TextStyle(fontSize: 16)),
-                        Text('Model: ${bicycle.bicycleModel}',
+                        Text('Model: ${car.carModel}',
                             style: const TextStyle(fontSize: 16)),
+                        Text('Brand: ${car.brand}',
+                            style: const  TextStyle(fontSize: 16))
                       ],
                     ),
                     const Spacer(), // Pushes "Rent" button to the right
@@ -62,7 +64,7 @@ class BicycleCard extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (context) =>
-                                    RentPage(bicycle: bicycle)));
+                                    RentPage(car: car)));
                       },
                       child: const Text("Rent"),
                     ),
