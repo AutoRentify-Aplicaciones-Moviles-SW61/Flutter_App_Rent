@@ -12,14 +12,14 @@ class LywBottomNavigation extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Container(
-      color: Colors.orange,
+      color: Colors.blueAccent,
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 12),
         child: GNav(
-          backgroundColor: Colors.orange,
+          backgroundColor: Colors.blueAccent,
           color: Colors.white,
           activeColor: Colors.white,
-          tabBackgroundColor: Colors.orangeAccent,
+          tabBackgroundColor: Colors.white10,
           padding: const EdgeInsets.all(16),
           gap: 8,
           onTabChange: (int index) {

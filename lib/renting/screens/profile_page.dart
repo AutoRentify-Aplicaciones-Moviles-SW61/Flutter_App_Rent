@@ -17,7 +17,7 @@ class _ProfilePageState extends State<ProfilePage> {
         children: [
           const Padding(padding: EdgeInsets.all(15.0)),
           ProfilePicture(
-            imagePath: "https://miro.medium.com/v2/resize:fit:785/0*Ggt-XwliwAO6QURi.jpg",
+            imagePath: "https://m.media-amazon.com/images/M/MV5BNTE1ODU3NTM1N15BMl5BanBnXkFtZTcwNTk0NDM4Nw@@._V1_.jpg",
             onClick: () async {},
           ),
           const SizedBox(height: 24),
@@ -35,12 +35,12 @@ class _ProfilePageState extends State<ProfilePage> {
   Widget buildName() => const Column(
     children: [
       Text(
-        "Juan Perez",
+        "Sean John Combs",
         style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
       ),
       SizedBox(height: 4),
       Text(
-        "example@example.com",
+        "partyallnight@example.com",
         style: TextStyle(color: Colors.grey),
       )
     ],
@@ -69,12 +69,12 @@ class _ProfilePageState extends State<ProfilePage> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Reserved bicycles",
+          "Reserved cars",
           style: TextStyle(fontWeight: FontWeight.bold),
           ),
         SizedBox(height: 24),
         Text(
-          "Favorite bicycles",
+          "Favorite Reserved Cars",
           style: TextStyle(fontWeight: FontWeight.bold),
         )
       ],
