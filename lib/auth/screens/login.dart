@@ -3,8 +3,8 @@ import 'package:lead_your_way/auth/screens/signup.dart';
 import 'package:lead_your_way/renting/screens/home_page.dart';
 import 'package:lead_your_way/shared/services/Smooth_Navigation.dart';
 import 'package:lead_your_way/shared/services/notifier.dart';
-import 'package:lead_your_way/shared/widgets/lyw_navigator.dart';
-import 'package:lead_your_way/shared/widgets/lyw_rounded_input_filed.dart';
+import 'package:lead_your_way/shared/widgets/gottagofast_navigator.dart';
+import 'package:lead_your_way/shared/widgets/gottagofast.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);

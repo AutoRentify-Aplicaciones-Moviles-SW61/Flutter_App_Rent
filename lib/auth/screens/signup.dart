@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lead_your_way/auth/screens/login.dart';
 import 'package:lead_your_way/shared/services/Smooth_Navigation.dart';
 import 'package:lead_your_way/shared/services/notifier.dart';
-import 'package:lead_your_way/shared/widgets/lyw_rounded_input_filed.dart';
+import 'package:lead_your_way/shared/widgets/gottagofast.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({super.key});

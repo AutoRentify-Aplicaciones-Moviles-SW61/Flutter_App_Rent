@@ -10,7 +10,7 @@ class WelcomePage extends StatefulWidget {
 
 class _WelcomePageState extends State<WelcomePage> {
   final image = Lottie.network(
-    'https://lottie.host/73c3a565-e326-46b3-b216-143682ae84bf/doCOzH8NHo.json'
+      'https://lottie.host/bbea4195-473e-4525-9293-bde815fe6be1/9MgbBrplfl.json'
   );
 
   @override
@@ -24,22 +24,22 @@ class _WelcomePageState extends State<WelcomePage> {
             "Welcome to",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 32
+                fontWeight: FontWeight.bold,
+                fontSize: 32
             ),
           ),
           const Text(
-            "Lead Your Way",
+            "Gotta Go Fast",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 32,
-              color: Colors.orange
+                fontWeight: FontWeight.bold,
+                fontSize: 32,
+                color: Colors.blueAccent
             ),
           ),
           image,
           const Text(
-            "Your go-to bike rental app for a convenient, efficient, and enjoyable cycling experience.", 
+            "Your go-to car rental app for a convenient, efficient, and enjoyable driving experience.",
             textAlign: TextAlign.center,
           )
         ],

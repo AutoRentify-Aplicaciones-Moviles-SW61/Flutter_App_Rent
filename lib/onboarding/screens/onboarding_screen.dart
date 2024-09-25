@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lead_your_way/auth/screens/login.dart';
 import 'package:lead_your_way/onboarding/widgets/welcome_page.dart';
-import 'package:lead_your_way/onboarding/widgets/find_bikes_page.dart';
-import 'package:lead_your_way/onboarding/widgets/start_adventure_page.dart';
+import 'package:lead_your_way/onboarding/widgets/findcars_card.dart';
+import 'package:lead_your_way/onboarding/widgets/starRent_card.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnBoardingScreen extends StatefulWidget {

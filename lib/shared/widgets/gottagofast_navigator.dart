@@ -4,7 +4,7 @@ import 'package:lead_your_way/renting/screens/home_page.dart';
 import 'package:lead_your_way/renting/screens/profile_page.dart';
 import 'package:lead_your_way/renting/screens/search_page.dart';
 import 'package:lead_your_way/routes/app_route.dart';
-import 'package:lead_your_way/shared/widgets/lyw_bottom_navigation.dart';
+import 'package:lead_your_way/shared/widgets/gottagofast_bottom_navigation.dart';
 
 class LywNavigator extends StatefulWidget {
   const LywNavigator({super.key});

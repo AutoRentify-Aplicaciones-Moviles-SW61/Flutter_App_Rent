@@ -10,7 +10,7 @@ class FindBikes extends StatefulWidget {
 
 class _FindBikesState extends State<FindBikes> {
   final image = Lottie.network(
-    'https://lottie.host/92a9c1ea-4abb-4e04-8cf6-3dce74b2b3ba/kEE0fbsoaX.json'
+    'https://lottie.host/f69b75fd-ac73-4f21-9ed8-6670ec259f2a/k9KZqJhfWu.json'
   );
 
   @override
@@ -24,7 +24,7 @@ class _FindBikesState extends State<FindBikes> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Find bikes",
+                "Search for Cars ",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
@@ -33,19 +33,19 @@ class _FindBikesState extends State<FindBikes> {
               ),
               SizedBox(width: 8,),
               Text(
-                "easily",
+                "with Ease",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 32,
-                  color: Colors.orange
+                  color: Colors.blue
                 ),
               ),
             ],
           ),
           image,
           const Text(
-            "Find the right bike for your needs", 
+            "Rent your way to an unforgettable journey.",
             textAlign: TextAlign.center,
           )
         ],
