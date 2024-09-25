@@ -1,74 +1,62 @@
 <div align="center">
-  <img src="./assets/logo-lyw.png" alt="Lead Your Way logo" height="180">
-  <h3 align="center">Lead Your Way - Bike Rental App</h3>
-  <p>Navi Buddy · 2023-02</p>
+  <img src="./assets/logoCar.png" alt="AutoRentify" height="180"> 
+  <h3 align="center">AutoRentify - Car Rental App</h3> 
+  <p>AutoRentify · 2024-02</p> 
 </div>
 
 ---
 
-Welcome to **Lead Your Way** , your go-to bike rental app for a convenient, efficient, and enjoyable cycling experience.
+Bienvenido a **AutoRentify**, la aplicación que revoluciona la forma en que alquilas vehículos, ofreciendo una experiencia rápida, segura y personalizada.
 
+## Sobre AutoRentify
 
-## About Lead Your Way
+AutoRentify es una startup dedicada a simplificar el alquiler de autos. Nuestra plataforma conecta a los usuarios con una amplia red de proveedores, ofreciendo una variedad de vehículos a precios competitivos. Con una interfaz intuitiva, eliminamos las complicaciones del proceso de alquiler, permitiendo que los usuarios gestionen todo desde su dispositivo móvil.
 
-Lead Your Way is a digital platform designed to simplify bike rentals for all types of cyclists. Whether you're a sports enthusiast looking for a thrilling ride or someone in need of efficient urban mobility, our app offers a wide range of features and benefits to enhance your cycling journey.
+## Cómo Funciona
 
-## How It Works
+**1. Regístrate:**
 
-**1. Sign Up:**
+- Crea una cuenta en AutoRentify utilizando tu correo electrónico o perfiles de redes sociales.
 
--   Create an account with Lead Your Way using your email or social media profiles.
+**2. Encuentra el Vehículo Perfecto:**
 
-**2. Find Your Perfect Ride:**
+- Explora nuestra variada selección de autos, incluyendo:
+    - **Autos Compactos:** Ideales para moverse en la ciudad con eficiencia.
+    - **SUVs:** Perfectos para viajes largos y mayor espacio de carga.
+    - **Vehículos de Lujo:** Para quienes buscan una experiencia premium.
 
--   Explore our extensive collection of bicycles, including:
--   **Mountain Bikes:** Ideal for off-road adventures with rugged designs and responsive suspension.
--   **Road Bikes:** Perfect for high-speed travel on paved roads, featuring sleek, aerodynamic designs.
--   **City Bikes:** Built for urban commuting, with sturdy components and low-maintenance features.
+**3. Reserva:**
 
-**3. Booking:**
+- Busca entre los autos disponibles, visualiza detalles y selecciona el que más se ajuste a tus necesidades.
+- Elige la duración de tu alquiler, desde horas hasta días.
 
--   Browse through available bikes, view details, and select the one that suits your needs.
--   Choose your rental duration, from hourly to daily options.
+**4. Confirma y Conduce:**
 
-**4. Confirm and Ride:**
+- Confirma tu reserva y recibe un código de acceso para recoger tu vehículo.
 
--   Confirm your booking and receive a unique access code to unlock your chosen bike.
+**5. Disfruta de Tu Viaje:**
 
-**5. Enjoy Your Ride:**
+- Usa la aplicación para gestionar tu alquiler, incluyendo el rastreo de tu ubicación y duración.
 
--   Hit the road and enjoy your cycling adventure.
--   Track your ride using the app for distance, time, and speed metrics.
+**6. Devolución y Pago:**
 
-**6. Return and Payment:**
+- Devuelve el auto en la ubicación indicada.
+- El pago se procesa automáticamente basado en la duración de tu alquiler.
 
--   Return the bike to a designated station or location.
--   Payment is automatically processed based on your rental duration.
+## ¿Por Qué Elegir AutoRentify?
 
-## Why Choose Lead Your Way
+Nuestra misión es ofrecerte la mejor experiencia de alquiler de autos, ya sea para tus necesidades diarias o para ocasiones especiales. AutoRentify te da el control total para encontrar y reservar el vehículo ideal, siempre a tu alcance.
 
-Our mission is to provide you with the best possible biking experience, whether you're commuting through the city or tackling rugged trails. Lead Your Way offers the convenience of bike rentals at your fingertips, giving you the freedom to explore, exercise, and commute on your terms.
+**2024 © AutoRentify - Todos los derechos reservados**
 
-**2023 © Lead Your Way - All rights reserved**
-
-## About the Project
-
-This is a mobile app built with Flutter and Dart. It is a project for the course "Mobile Application Development" at the University of Applied Sciences in Lima, Peru.
-
-<div align="center">
-  <img src="./assets/welcome.jpg" alt="Lead Your Way logo" height="400">
-  <img src="./assets/easily.jpg" alt="Lead Your Way logo" height="400">
-  <img src="./assets/adventure.jpg" alt="Lead Your Way logo" height="400">
-  <p>Lead Your Way - Bike Rental App</p>
-</div>
 
 ## Collaborators
 
--   [Oliver Tuesta](https://github.com/oliverTuesta)
--   [Lorenzo Navarro](https://github.com/coderinzler)
--   [Lucas Ruiz](https://github.com/lucas1336)
--   [Andres Leiva](https://github.com/aleiva17)
--   [Josue Ramos](https://github.com/Blo0m)
+-  Christian Renato Espinoza Saenz
+- Julio Esteban Elsner De La Torre Ugarte
+- Joaquin David Rivadeneyra Ramos
+- Alvaro Felipe Pinto Fuentes Rivera
+- Nelson Elías Serrano Ircañaupa
 
 ---
 
