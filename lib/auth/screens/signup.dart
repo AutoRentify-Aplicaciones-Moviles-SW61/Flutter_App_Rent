@@ -34,7 +34,7 @@ class _SignUpState extends State<SignUp> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/logo-lyw.png',
+              'assets/logoCar.png',
               width: 125,
               height: 125,
             ),
@@ -94,8 +94,8 @@ class _SignUpState extends State<SignUp> {
                 }
               },
               style: FilledButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 252, 150, 82),
-                foregroundColor: Colors.white,
+                backgroundColor: const Color.fromARGB(255, 82, 141, 252),
+                foregroundColor: Colors.white70,
                 fixedSize: const Size(200, 50),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(32),
@@ -133,7 +133,7 @@ class _SignUpState extends State<SignUp> {
           child: const Text(
             "Login",
             style: TextStyle(
-              color: Colors.orange,
+              color: Colors.blueAccent,
               backgroundColor: Color.fromARGB(0, 138, 132, 132),
             ),
           ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lead_your_way/onboarding/widgets/bicycle_card.dart';
-import 'package:lead_your_way/shared/models/bicycle.dart';
+import 'package:lead_your_way/shared/models/car.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});
@@ -10,58 +10,63 @@ class SearchPage extends StatefulWidget {
 }
 
 class _SearchPageState extends State<SearchPage> {
-  List<Bicycle> hardcodedBicycles = [
-    Bicycle(
+  List<Car> hardcodedBicycles = [
+    Car(
       id: 1,
-      bicycleDescription: "A comfortable and versatile city bike.",
-      bicycleName: "City Cruiser",
-      bicyclePrice: 399,
-      bicycleSize: "M",
-      bicycleModel: "2023 Model",
-      imageData:
-          "https://www.wheelbase.co.uk/wp-content/uploads/2019/06/Feature-Image.jpg",
+      passengers: 5,
+      luggageCapacity: 3,
+      carName: "Luxury Cruiser",
+      brand: "Toyota",
+      carPrice: 150.00,
+      carDescription: "A luxurious and spacious city sedan, perfect for comfortable travel.",
+      carModel: "2023 Model",
+      imageData: "https://carsguide-res.cloudinary.com/image/upload/c_fit,h_405,w_720,f_auto,t_cg_base/v1/editorial/story%2Fhero_image%2FToyota-FJ-Render-1001x565.jpg",
     ),
-    Bicycle(
+    Car(
       id: 2,
-      bicycleDescription: "A lightweight road bike for speed enthusiasts.",
-      bicycleName: "Speedster",
-      bicyclePrice: 899,
-      bicycleSize: "L",
-      bicycleModel: "2023 Model",
-      imageData:
-          "https://hips.hearstapps.com/hmg-prod/images/bke040123gertrekfuelexe-004-642d98697b6b4.jpg",
+      passengers: 2,
+      luggageCapacity: 2,
+      carName: "Speedster",
+      brand: "BMW",
+      carPrice: 400.00,
+      carDescription: "A sleek and powerful road car for speed enthusiasts.",
+      carModel: "2023 Model",
+      imageData: "https://fuelcarmagazine.com/wp-content/uploads/2024/03/H2.jpg",
     ),
-    Bicycle(
+    Car(
       id: 3,
-      bicycleDescription: "An all-terrain mountain bike for adventure.",
-      bicycleName: "Mountain King",
-      bicyclePrice: 649,
-      bicycleSize: "XL",
-      bicycleModel: "2023 Model",
-      imageData:
-          "https://www.bikegeardatabase.com/stories/vintage-biker/gt-spinergy.jpeg",
+      passengers: 7,
+      luggageCapacity: 5,
+      carName: "Grand Cherokee",
+      brand: "Jeep",
+      carPrice: 149.99,
+      carDescription: "An all-terrain SUV perfect for off-road adventures.",
+      carModel: "2023 Model",
+      imageData: "https://www.jeep.com/content/dam/cross-regional/stellantis/jeep/latam-rol/peru/modelos/2023/grand-cherokee/gch-l/versiones/gch-l-limited-version-model.png.img.2880.png",
     ),
-    Bicycle(
+    Car(
       id: 4,
-      bicycleDescription: "A stylish and practical urban commuter bike.",
-      bicycleName: "Urban Explorer",
-      bicyclePrice: 449,
-      bicycleSize: "S",
-      bicycleModel: "2023 Model",
-      imageData:
-          "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/allied-bc40-mountain-bike-review-lead-1663794038.jpg",
+      passengers: 5,
+      luggageCapacity: 2,
+      carName: "Territory Titanium",
+      brand: "Ford",
+      carPrice: 80.99,
+      carDescription: "A stylish and practical familiar bunker",
+      carModel: "2025 Model",
+      imageData: "https://lacochera.net/wp-content/uploads/2024/05/Ford_Territory_2025_China_LaCochera_02-1024x683.webp",
     ),
-    Bicycle(
+    Car(
       id: 5,
-      bicycleDescription:
-          "A high-performance hybrid bike for fitness enthusiasts.",
-      bicycleName: "Hybrid Pro",
-      bicyclePrice: 699,
-      bicycleSize: "M",
-      bicycleModel: "2023 Model",
-      imageData:
-          "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/allied-bc40-mountain-bike-review-lead-1663794038.jpg",
+      passengers: 5,
+      luggageCapacity: 4,
+      carName: "Fusion ",
+      brand: "Ford",
+      carPrice: 109.99,
+      carDescription: "A high-performance sedan, perfect for long-distance travel.",
+      carModel: "2023 Model",
+      imageData: "https://img.remediosdigitales.com/5c88ed/mondeo1/1366_2000.jpeg",
     ),
+
   ];
 
   @override
@@ -70,8 +75,8 @@ class _SearchPageState extends State<SearchPage> {
       child: Scaffold(
         body: ListView(
           children: [
-            for (Bicycle bicycle in hardcodedBicycles)
-              BicycleCard(bicycle: bicycle)
+            for (Car car in hardcodedBicycles)
+              BicycleCard(car: car)
           ],
         ),
       ),
